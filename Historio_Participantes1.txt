@@ -1,0 +1,40 @@
+Historico:
+
+Primeramente subimos los archivos de forma manual, de la siguiente forma:
+
+En primer lugar accedemos a github logeándonos con nuestro usuario y contraseña.
+Pedimos a los compañeros su nombre de usuario en github para previamente incorporarlos como colaboradores al repositorio que crearemos para trabajar.
+
+A continuación crearemos el repositorio poniendole el nombre indicado GRUPOXDAW22
+Una vez creemos el repositorio haciendo clic en crear repositorio (Arriba a la izquierda en el menu principal de gitHub), debemos irnos al apartado collaborators / colaboradores. 
+Pulsando en añadir colaboradores e introduciendo el nombre de usuario de cada uno de ellos, añadiremos las personas como colaboradores al repositorio.
+Para dar permisos a nuestros compañeros, nos iremos al apartado limites de interaccion temporal y habilitaremos la primera opción.
+A continuación debemos subir la carpeta app con los templates y la carpeta web, para ello nos iremos a codigo para arrastrar la carpeta y subiremos todos los archivos.
+
+En este punto, lo dejamos ya que nos enteramos que debiamos realizar el trabajo mediante consola.
+
+Comentario
+
+Tambien hemos realizado la practica realizando la subida de la carpeta app/templates utilizando la bash de GIT:
+
+Creamos una carpeta vacia tan solo con la carpeta app/templates en el interior y hacemos click derecho en la carpeta pulsando GIT Bash here. A continuacion hemos hecho uso de los siguientes comandos:
+
+
+- git status -s dice que ha pasado con cada archivo
+- git add . Para añadir todos los archivos de forma local o temporal
+-git commit -m "agregar carpetas por ejemplo" ya con esto agregas el archivo y además te lo indica
+- git status -s y te muestra los archivos sin seguimiento
+(Git init una vez por carpeta de trabajo)
+(Commit ya agrega a repositorio)
+git log --online muestra todos los commits
+
+-----------
+Copiar lo de git remote etc
+Después de todos los commit git push para añadir
+Una vez conectado solo add y push para modificar
+Pull - compara los archivos en github y los trae a local
+Push enviar
+Pull traer
+Git fetch para dejar lo que hay en local igual a lo que hay en la nube 
+Git tag nombre version -m "está es la versión tal"
+Git push --tags para subir los tags
