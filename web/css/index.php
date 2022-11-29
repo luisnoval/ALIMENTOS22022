@@ -5,9 +5,9 @@ ini_set('display_errors', 1);
         error_reporting(E_ALL);
 // web/index.php
 // carga del modelo y los controladores
-require_once __DIR__ . '/../../entrada/app/Config.php';
-require_once __DIR__ . '/../../entrada/app/Model.php';
-require_once __DIR__ . '/../../entrada/app/Controller.php';
+require_once __DIR__ . '/../entrada/app/Config.php';
+require_once __DIR__ . '/../entrada/app/Model.php';
+require_once __DIR__ . '/../entrada/app/Controller.php';
 
 
 session_start();
