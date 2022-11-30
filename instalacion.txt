@@ -1,0 +1,13 @@
+Comandos utilizados para el despliegue de la aplicacion
+
+ssh juancarla2@185.66.41.232
+cd /
+ls
+cd web
+ls
+mkdir alimentos22022
+ls
+git init
+git config --global http.sslVerify false
+git remote add origin https://github.com/luisnoval/ALIMENTOS22022.git
+git pull origin main
